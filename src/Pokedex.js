@@ -18,7 +18,6 @@ class Pokedex extends Component {
     render() {
         return (
             <div className="Pokedex">
-                <h1>Pokedex!</h1>
                 <p>Total Experience: {this.props.exp}</p>
                 <h2 className={this.props.isWinner ? 'Pokedex-winner' : 'Pokedex-loser'}>{this.props.isWinner ? 'WINNER!' : 'LOSER!'}</h2>
                 <div className="Pokedex-cards">
