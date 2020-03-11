@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Pokedex from './Pokedex'
-import Pokecard from './Pokecard';
+// import Pokecard from './Pokecard';
 
 class Pokegame extends Component {
     static defaultProps = {
